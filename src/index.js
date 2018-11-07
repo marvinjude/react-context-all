@@ -30,7 +30,7 @@ class App extends Component {
       <React.Fragment>
         <Sidebar theme={this.context} />
         {console.log(this.context)}
-        <button onClick={() => this.context.changeTheme("x")}>click Me</button>
+        <button onClick={() => this.context.changeTheme("x")}>click Merrreeeeeee</button>
         <Main />
       </React.Fragment>
     );
